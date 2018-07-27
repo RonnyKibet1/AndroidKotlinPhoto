@@ -81,9 +81,9 @@ class MainActivity : AppCompatActivity() {
                         //show alert dialog with permission options
                         AlertDialog.Builder(this@MainActivity)
                                 .setTitle(
-                                        "title")
+                                        "Permissions Error!")
                                 .setMessage(
-                                        "message")
+                                        "Please allow permissions to take photo with camera")
                                 .setNegativeButton(
                                         android.R.string.cancel,
                                         { dialog, _ ->
